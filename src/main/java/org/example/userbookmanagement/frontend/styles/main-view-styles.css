@@ -1,0 +1,8 @@
+:host([theme~="small"]) [part="app-content"] {
+    margin-left: 16px; /* Adjust the value based on your design */
+    transition: margin-left 0.5s;
+}
+
+:host([theme~="small"]) [part="app-content"][expanded] {
+    margin-left: 256px; /* Adjust the value based on your design */
+}
